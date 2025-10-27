@@ -1,0 +1,21 @@
+{
+  "name": "blog_websit",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "@prisma/extension-accelerate": "^2.0.2",
+    "@qyam/comman": "^1.0.0",
+    "hono": "^4.10.3",
+    "prisma": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "dotenv-cli": "^10.0.0",
+    "wrangler": "^4.4.0"
+  }
+}
