@@ -18,7 +18,7 @@ export const Appbar = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
       <Link to={"/blogs"}>
-        <h1 className="text-3xl font-serif font-bold">Blog website</h1>
+        <h1 className="text-3xl font-serif font-bold">Blog Website</h1>
       </Link>
       <div className="flex items-center gap-6">
         <Link to={"/publish"}>
